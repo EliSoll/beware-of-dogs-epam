@@ -3,13 +3,13 @@ package com.epam.rd.autotasks.house;
 import java.util.ArrayList;
 import java.util.List;
 
-public class House {
+public class House<Cat> {
+    private final List<Cat> residents = new ArrayList();
 
-    private final List residents = new ArrayList();
-
-    public void enter(Object resident) {
+    public void enter(Cat resident) {
         residents.add(resident);
     }
+
 
     @Override
     public String toString() {
