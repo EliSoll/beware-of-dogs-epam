@@ -23,7 +23,7 @@ public class Main {
         House catHouse = new House();
         catHouse.enter(barbos);
         catHouse.enter(murzik);
-        catHouse.enter(rex); //This must fail on compilation stage if you parameterize the catHouse. Delete the line when solution is ready
+        /*catHouse.enter(rex);//*/ //This must fail on compilation stage if you parameterize the catHouse. Delete the line when solution is ready
         System.out.println(catHouse);
     }
 }
